@@ -1,0 +1,13 @@
+# Normaliza fim de linha (silencia avisos LF/CRLF)
+* text=auto eol=lf
+
+# Scripts Windows precisam de CRLF
+*.bat text eol=crlf
+
+# Binários
+*.png  binary
+*.jpeg binary
+*.jpg  binary
+*.ico  binary
+*.exe  binary
+*.xlsx binary
