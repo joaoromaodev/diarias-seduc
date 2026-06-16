@@ -14,6 +14,18 @@ mensal para importação no **ERGON** — substituindo uma conferência manual.
 > roda com **dados 100% fictícios** (`exemplos/`). Nenhum dado real de servidor é
 > versionado.
 
+## Demonstração
+
+> Imagens geradas a partir de **dados fictícios**. Nenhum dado real.
+
+**Processamento** — base OF carregada e seleção de competência:
+
+![Tela de Processamento](docs/diarias_processamento.png)
+
+**Resultado do cruzamento** — vinculados (por OB/CPF), a cadastrar na OF e não encontradas:
+
+![Resultado do cruzamento](docs/diarias_resultado.png)
+
 ## O problema que resolve
 
 Um servidor pode ter **mais de um vínculo**. Cruzar a diária apenas pelo **CPF**
