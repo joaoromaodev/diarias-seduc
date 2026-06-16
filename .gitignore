@@ -1,0 +1,57 @@
+# ─────────────────────────────────────────────────────────────────────────────
+#  DADOS REAIS — NUNCA versionar (contêm CPF, nomes e matrículas de servidores)
+# ─────────────────────────────────────────────────────────────────────────────
+webapp/data/
+csv_output/
+RELATORIOS/
+lista_servidores*.csv
+lista_servidores*.xlsx
+*.XLSX
+*.xlsx
+diarias_cruzadas_*.csv
+diarias1*.csv
+diarias2*.csv
+
+# Dados de demonstração GERADOS (rode exemplos/gerar_dados_fake.py)
+exemplos/*.csv
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  SEGREDOS / INFRA — não publicar (IP e credenciais da VM, etc.)
+# ─────────────────────────────────────────────────────────────────────────────
+HANDOFF_DEPLOY.md
+consultasiafe/credentials.json
+**/credentials.json
+**/secrets.toml
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  BINÁRIOS / ARTEFATOS PESADOS
+# ─────────────────────────────────────────────────────────────────────────────
+# chromedriver.exe — baixe conforme a versão do seu Chrome
+*.exe
+
+# Kit de design (pacote interno separado, fora do escopo do app)
+SEDUC-PA Design System/
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  LOGS / RUNTIME / CACHE
+# ─────────────────────────────────────────────────────────────────────────────
+*.log
+__pycache__/
+*.pyc
+.claude/
+webapp/.claude/
+
+# ─────────────────────────────────────────────────────────────────────────────
+#  LEGADO (versão CLI antiga, anterior ao webapp) e arquivos de outro projeto
+# ─────────────────────────────────────────────────────────────────────────────
+/app.py
+/processar_diarias.py
+/INSTALACAO.txt
+/RODAR.bat
+/iniciar_servidor.bat
+APSSCRIPTS*.txt
+prefeituras*.txt
+
+# OS
+Thumbs.db
+.DS_Store
